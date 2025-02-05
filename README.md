@@ -1,4 +1,6 @@
-# scraping-recept
+# Youtube automation tool 
+
+This script is designed to mimic the human interaction with youtube. To act like automation tool to boost your youtube channel.
 
 stepper scraper walkthrough
 
