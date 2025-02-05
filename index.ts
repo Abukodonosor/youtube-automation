@@ -13,7 +13,6 @@ import { HPuppeteerFacade } from "./src/lib/puppeteer";
     console.error("Error:", error);
   } finally {
     await facade.close();
-    writeJSONToFile(res, "./item-results.json");
     console.log(`Process is successfully finished!`);
   }
 })();
