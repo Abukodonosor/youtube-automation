@@ -1,17 +1,14 @@
 import {
   AccumulatorObj,
-  ProductSpecification,
   Scenario,
-  ShortSpecification,
 } from "./lib/puppeteer";
-import { getUrlsWithClass, getTextWithClass, cleanString } from "./lib/helpers";
 
 export const AccumulatorObject: AccumulatorObj = {
   CONFIG: {
     SITE_URL: "https://www.youtube.com/",
 
-    userEmail: "cube.uros@gmail.com",
-    userPassword: "wasp1993",
+    userEmail: "____PLACE_YOUR_EMAIL_HERE____",
+    userPassword: "____PLACE_YOUR_PASSWORD_HERE____",
 
     channelName: "The Trilby Gents Club",
     chanelUrl: "https://www.youtube.com/@trilbygentsclub"
